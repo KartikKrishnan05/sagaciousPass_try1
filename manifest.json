@@ -16,5 +16,15 @@
             "48": "/images/icon_48.png",
             "128": "/images/icon_128.png"
         }
-    }
+    },
+
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["Content.js"]
+        }
+    ]
+
 }
