@@ -1,0 +1,20 @@
+
+{
+    "manifest_version": 2,
+    "name": "SagiousPass",
+    "description": "Safer password for all",
+    "version": "1.0.0",
+    "icons": {
+        "16": "",
+        "46": "",
+        "128": ""
+    },
+
+    "page_auction":{
+        "default_icon": {
+            "16":"",
+            "48":"",
+            "128":""
+        }
+    }
+}
