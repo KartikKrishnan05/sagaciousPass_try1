@@ -1,4 +1,4 @@
-console.log('background running');
+console.log('Hello World');
 
 
 chrome.browserAction.onClicked.addListener(buttonClick);
