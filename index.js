@@ -7,7 +7,8 @@ document.getElementById("theButton").onclick = function(){
     var hisWeb = document.getElementById("theWeb").value;
 
     console.log("Website your are on:", hisWeb);
-
 }
+
+
 
 
