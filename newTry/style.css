@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    height: 450px;
+    width: 400px;
+    background: #E5E5E5;
+}
+
+.header{
+    position: absolute;
+    width: 360px;
+    height: 68px;
+    left: 20px;
+    top: 34px;
+    
+    background: #A5C1CD;
+    border-radius: 82px;
+}
+
+.heading{
+    position: absolute;
+    width: 360px;
+    height: 68px;
+    left: 20px;
+    top: 34px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.getPass{
+    position: absolute;
+    width: 316.04px;
+    height: 48px;
+    left: 40px;
+    top: 133px;
+
+    background: #A9908C;
+    border-radius: 82px;
+}
+
+.getPassT{
+    position: absolute;
+    width: 320px;
+height: 48px;
+left: 40px;
+top: 133px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+
+color: #000000;
+}
+
+.checkPass{
+    position: absolute;
+    width: 316px;
+    height: 48px;
+    left: 40px;
+    top: 216px;
+
+    background: #A9908C;
+    border-radius: 82px;
+}
+
+.checkPassT{
+    position: absolute;
+width: 316px;
+height: 48px;
+left: 40px;
+top: 216px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+
+color: #000000;
+}
+
+.SavePass{
+    position: absolute;
+width: 316px;
+height: 48px;
+left: 40px;
+top: 299px;
+
+background: #A9908C;
+border-radius: 82px;
+}
+
+.SavePassT{
+    position: absolute;
+width: 308.81px;
+height: 48px;
+left: 45.16px;
+top: 299px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 30px;
+line-height: 35px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+
+color: #000000;
+}
+
+.SignIn{
+    position: absolute;
+    width: 130px;
+    height: 60px;
+    left: 49px;
+    top: 379px;
+    
+    background: #D8AF60;
+    border-radius: 82px;
+}
+
+.SignInT{
+    position: absolute;
+width: 130px;
+height: 60px;
+left: 49px;
+top: 379px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+
+color: #000000;
+}
+
+.SignUp{
+    position: absolute;
+width: 130px;
+height: 58px;
+left: 218px;
+top: 379px;
+
+background: #D8AF60;
+border-radius: 82px;
+}
+
+.SignUpT{
+    position: absolute;
+width: 130px;
+height: 60px;
+left: 218px;
+top: 379px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+
+color: #000000;
+}
