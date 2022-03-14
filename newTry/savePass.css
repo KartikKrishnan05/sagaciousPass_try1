@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+height: 450px;
+width: 400px;
+background-color: #F7F1CF;
+}
+
+.header{
+position: absolute;
+width: 360px;
+height: 68px;
+left: 20px;
+top: 34px;
+    
+background: #A9908C;
+border-radius: 82px;
+}
+
+.heading{
+position: absolute;
+width: 321px;
+height: 57px;
+left: 39px;
+top: 40px;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 48px;
+line-height: 56px;
+    
+color: #000000;
+}
+
+.WebUrl{
+position: absolute;
+width: 286px;
+height: 50px;
+left: 20px;
+top: 140px;
+
+background: #A9908C;
+border-radius: 82px;
+}
+
+.WebUrlT{
+position: absolute;
+width: 260px;
+height: 40px;
+left: 30px;
+top: 145px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+line-height: 21px;
+background-color: transparent;
+border: none;
+color: #000000;
+font-weight: bold;
+
+opacity: 1;
+}
+
+.Password{
+position: absolute;
+width: 286px;
+height: 50px;
+left: 20px;
+top: 204px;
+
+background: #A9908C;
+border-radius: 82px;
+}
+
+.PasswordT{
+position: absolute;
+width: 260;
+height: 40px;
+left: 30px;
+top: 208px;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+line-height: 21px;
+background-color: transparent;
+border: none;
+color: #000000;
+font-weight: bold;
+
+opacity: 1;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.SaveT{
+position: absolute;
+width: 129px;
+height: 52px;
+left: 20px;
+top: 270px;
+background: #D8AF60;
+border-radius: 82px;
+border: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+cursor:pointer;
+}
+
+.back{
+position: absolute;
+width: 52px;
+height: 52px;
+left: 174px;
+top: 271px;
+    
+background: #A5C1CD;
+border-radius: 82px;
+}
+
+.img{
+position: absolute;
+width: 35px;
+height: 35px;
+left: 182px;
+top: 280px;
+}
+
+.pressfunc{
+position: absolute;
+width: 52px;
+height: 52px;
+left: 174px;
+top: 271px;
+}

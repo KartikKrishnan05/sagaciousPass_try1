@@ -3,7 +3,7 @@
 body{
     height: 450px;
     width: 400px;
-    background: #E5E5E5;
+    background-color: #F7F1CF;
 }
 
 .header{
@@ -21,7 +21,7 @@ body{
     position: absolute;
     width: 360px;
     height: 68px;
-    left: 20px;
+    left: 60px;
     top: 34px;
 
     font-family: 'Roboto';
@@ -51,7 +51,7 @@ body{
     position: absolute;
     width: 320px;
 height: 48px;
-left: 40px;
+left: 95px;
 top: 133px;
 
 font-family: 'Roboto';
@@ -82,7 +82,7 @@ color: #000000;
     position: absolute;
 width: 316px;
 height: 48px;
-left: 40px;
+left: 95px;
 top: 216px;
 
 font-family: 'Roboto';
@@ -113,7 +113,7 @@ border-radius: 82px;
     position: absolute;
 width: 308.81px;
 height: 48px;
-left: 45.16px;
+left: 95px;
 top: 299px;
 
 font-family: 'Roboto';
@@ -144,7 +144,7 @@ color: #000000;
     position: absolute;
 width: 130px;
 height: 60px;
-left: 49px;
+left: 74px;
 top: 379px;
 
 font-family: 'Roboto';
@@ -175,7 +175,7 @@ border-radius: 82px;
     position: absolute;
 width: 130px;
 height: 60px;
-left: 218px;
+left: 241px;
 top: 379px;
 
 font-family: 'Roboto';
