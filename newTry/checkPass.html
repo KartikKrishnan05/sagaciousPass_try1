@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="secPage.css">
 
-    <script unsafe-inline charset="utf-8" type="text/javascript" src="checkPass.js"></script>
+    <script charset="utf-8" type="text/javascript" defer src="checkPass.js"></script>
 
     <title>SagiousPass</title>
 </head>
 <body> 
 
+   
 
     <div class="header"></div>
     <div class="heading CheckPass"> <p>Check Password</p> </div>
@@ -20,11 +21,15 @@
     <a class="one" ></a>
     <input id="TestPass" type="password" placeholder="Password..." class="oneT"> 
 
-    <button onclick="überprüfung()" class="CheckT"> Check </button>
+    <button id="checkBtn" class="CheckT"> Check </button>
 
     <a class="backc"></a>
     <img class="imgc" src="/images/return.png">
     <a class="pressfuncc" href="index.html">  </a>
+
+    
+
+    <span id="Note"> Ihr Passwort ist:  </span>
 
 </body>
 </html>
