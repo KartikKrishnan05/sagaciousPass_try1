@@ -1,0 +1,95 @@
+body{
+    width: 300px;
+    height: 300px;
+    background: #64687B;
+}
+
+.heading{
+    position: absolute;
+    width: 320px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    
+    background: #22797A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header{
+    position: absolute;
+    width: 128px;
+    height: 24px;
+    left: 22px;
+    top: 0px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+}
+
+#testPass{
+    position: absolute;
+width: 154px;
+height: 19px;
+left: 25px;
+top: 98px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+background-color: transparent;
+border: none;
+
+color: #FFFFFF;
+
+opacity: 1;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.line{
+position: absolute;
+width: 240px;
+height: 0px;
+left: 22px;
+top: 122px;
+
+background-color: #ADADAD;
+border: 1px solid #ADADAD;
+}
+
+.check{
+    position: absolute;
+width: 104px;
+height: 50px;
+left: 109px;
+bottom: 0px;
+
+background: #0CB2B4;
+}
+
+.checkT{
+    position: absolute;
+width: 73px;
+height: 29px;
+left: 0px;
+bottom: 10px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
