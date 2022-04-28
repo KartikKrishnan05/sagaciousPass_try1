@@ -52,27 +52,27 @@ function überprüfung() {
 
     if (TestPass.length < 8) {
         strength--;
-        console.log('Password must be at least 6 characters long.')
+        alert('Password must be at least 6 characters long.')
     }
     if (TestPass.length < 12) {
         strength--;
-        console.log('Password must be at least 6 characters long.')
+        alert('Password must be at least 6 characters long.')
     }
     if (!hasUpperCase) {
         strength--;
-        console.log('Password must contain at least one uppercase letter.')
+        alert('Password must contain at least one uppercase letter.')
     }
     if (!hasLowerCase) {
         strength--;
-        console.log('Password must have at least one lowercase letter.')
+        alert('Password must have at least one lowercase letter.')
     }
     if (!hasNumbers) {
         strength--;
-        console.log('Password must have at least one number.')
+        alert('Password must have at least one number.')
     }
     if (!hasSpecial) {
         strength--;
-        console.log('Password must have at least one special character.')
+        alert('Password must have at least one special character.')
     }
 
     //alert(strength);
@@ -102,10 +102,6 @@ function überprüfung() {
     }
 
 }
-
-
-
-
 
 
 document.getElementById("checkBtn").addEventListener("click", überprüfung);

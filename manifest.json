@@ -34,7 +34,7 @@
         "default_icon": "/images/icon_16.png",
         "48": "/images/icon_48.png",
         "128": "/images/icon_128.png",
-        "default_popup": "Design3/index.html", 
+        "default_popup": "newTry/index.html", 
         "default_title": "Test your password here!"
     }
     

@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="secPage.css">
+
+    <script charset="utf-8" type="text/javascript" defer src="getPass.js"></script>
+
     <title>SagiousPass</title>
 </head>
 <body> 
@@ -15,15 +18,15 @@
     <div class="heading GetPass" > <p>Get a Password</p> </div>
 
     <a class="one" ></a>
-    <input type="text" placeholder="Favourite Word..." class="oneT"> 
+    <input type="text" placeholder="Favourite Word..." class="oneT" id="favW"> 
 
     <a class="two"></a>
-    <input type="text" placeholder="Favourit Symbol..." class="twoT">
+    <input type="text" placeholder="Favourit Symbol..." class="twoT" id="favS">
 
     <a class="three"></a>
-    <input type="url" placeholder="Website Url..." class="threeT">
+    <input type="url" placeholder="Website Url..." class="threeT" id="url">
 
-    <button class="SumbitT"> Submit </button>
+    <button id="submitBtn" class="SumbitT"> Submit </button>
 
     <a class="backg"></a>
     <img class="imgg" src="/images/return.png">
