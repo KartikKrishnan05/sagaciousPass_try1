@@ -23,9 +23,11 @@ function erstellen() {
     while (secondNumber == 0){
       secondNumber = generateRandom(w);
     }
+    
     while(firstNumber == secondNumber){
       secondNumber = generateRandom(w);
     }
+    
     
     // var firstLetter = favW.charAt(firstNumber - 1 );
     // var secondLetter = favW.charAt(secondNumber - 1);
@@ -33,7 +35,7 @@ function erstellen() {
     const newfavW = favW.slice (0, firstNumber - 1) + favW.charAt(firstNumber - 1).toUpperCase() + favW.slice(firstNumber);
     //alert(newfavW);
 
-    const finalfavW = newfavW.slice(0, secondNumber -1) + newfavW.charAt(secondNumber -1).toUpperCase() + favW.slice(secondNumber);
+    const finalfavW = newfavW.slice(0, secondNumber -1) + newfavW.charAt(secondNumber -1).toUpperCase() + newfavW.slice(secondNumber);
 
     password = finalfavW + favS + firstNumber + '' + secondNumber;
     alert(password);
