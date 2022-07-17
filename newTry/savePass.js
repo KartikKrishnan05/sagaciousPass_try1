@@ -1,5 +1,3 @@
-
-
 //localStorage.removeItem('name');
 function speichern(){
     var url = document.getElementById(url);

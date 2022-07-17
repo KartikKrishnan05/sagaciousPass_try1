@@ -2,8 +2,6 @@ function erstellen() {
 
     var favW = document.getElementById("favW").value;
     var favS = document.getElementById("favS").value;
-    var url = document.getElementById("url").value;
-
 
     var password;
     var w = favW.length;

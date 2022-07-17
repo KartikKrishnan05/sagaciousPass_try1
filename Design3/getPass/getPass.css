@@ -1,0 +1,243 @@
+body{
+    height: 450px;
+    width: 400px;
+    background-color: #E5E5E5;
+}
+
+.getPass{
+position: absolute;
+width: 66px;
+height: 66px;
+left: 19.97px;
+top: 107.1px;
+    
+background: #FEFFBA;
+border-radius: 15px;
+}
+
+.getImg{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 27.93px;
+top: 114.15px;
+}
+
+.checkPass{
+position: absolute;
+width: 66px;
+height: 66px;
+left: 19.5px;
+top: 189.1px;
+       
+background: #FFFFFF;
+border-radius: 15px;
+}
+    
+.checkImg{
+position: absolute;
+width: 50px;
+height: 50px;
+left: 27.43px;
+top: 200.15px;
+}
+
+.savePass{
+position: absolute;
+width: 66px;
+height: 66px;
+left: 18.99px;
+top: 278.1px;
+    
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.saveImg{
+position: absolute;
+width: 45px;
+height: 45px;
+left: 30.29px;
+top: 290.14px;
+}
+
+
+.heading{
+position: absolute;
+width: 364px;
+height: 66px;
+left: 20.47px;
+top: 20.1px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.header_text{
+position: absolute;
+width: 285.46px;
+height: 66px;
+left: 115px;
+top: 20px;
+    
+font-family: 'Mplus 1p';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 53px;
+text-decoration: none;
+
+display: flex;
+align-items: center;
+text-align: center;
+    
+color: #000000;
+}
+
+.body_box{
+position: absolute;
+width: 280px;
+height: 238px;
+left: 103.97px;
+top: 106.58px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.login{
+position: absolute;
+width: 165px;
+height: 66px;
+left: 19.48px;
+top: 367.1px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.register{
+position: absolute;
+width: 165px;
+height: 66px;
+left: 217.47px;
+top: 368.24px;
+    
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.text{
+position: absolute;
+width: 103px;
+height: 44px;
+left: 65px;
+top: 378px;
+
+font-family: 'Mplus 1p';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 18px;
+text-decoration: none;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+.textr{
+position: absolute;
+width: 114px;
+height: 44px;
+left: 243.41px;
+top: 379.39px;
+
+font-family: 'Mplus 1p';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 18px;
+text-decoration: none;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+/* individueller Teil */
+
+.smallheader{
+box-sizing: border-box;
+
+position: absolute;
+width: 252px;
+height: 38px;
+left: 117.29px;
+top: 121.14px;
+    
+background: #FEFFBA;
+border: 0.5px solid #000000;
+border-radius: 15px;
+}
+
+.headertext{
+    position: absolute;
+    width: 232px;
+    height: 27px;
+    left: 150px;
+    top: 127px;
+    
+    font-family: 'Mplus 1p';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000; 
+}
+
+.favWord{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 125px;
+    top: 185px;
+    border: 0.5px solid #000000;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.favSym{
+    position: absolute;
+    width: 230px;
+    height: 38px;
+    left: 125px;
+    top: 237px;
+    border: 0.5px solid #000000;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.sumbit{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 75px;
+    height: 35px;
+    left: 282px;
+    top: 290px;
+    
+    background: #FEFFBA;
+    border: 1px solid #525252;
+    border-radius: 15px;
+}
+
+
+
+
