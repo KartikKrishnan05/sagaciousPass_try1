@@ -202,26 +202,24 @@ body {
     color: #000000;
 }
 
-.favWord {
+.pw {
     position: absolute;
     width: 230px;
     height: 38px;
     left: 125px;
     top: 185px;
-    border: 0.5px solid #000000;
-    border-radius: 15px;
+    border: none;
+    border-bottom: 0.5px solid #000000;
     padding-left: 10px;
 }
 
-.favSym {
-    position: absolute;
-    width: 230px;
-    height: 38px;
-    left: 125px;
-    top: 237px;
-    border: 0.5px solid #000000;
-    border-radius: 15px;
-    padding-left: 10px;
+::placeholder{
+    color: black;
+    opacity: 25%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
 }
 
 .sumbit {
@@ -236,10 +234,18 @@ body {
     background: #B1FEB0;
     border: 1px solid #525252;
     border-radius: 15px;
+
+    cursor:pointer;
 }
 
 #note{
     position: absolute;
     top: 250px;
+    left: 125px;
+}
+
+#verbesserung{
+    position: absolute;
+    top: 275px;
     left: 125px;
 }

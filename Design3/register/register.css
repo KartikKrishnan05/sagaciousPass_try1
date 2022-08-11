@@ -1,0 +1,160 @@
+body{
+    height: 450px;
+    width: 400px;
+    background-color: #E5E5E5;
+}
+.heading{
+position: absolute;
+width: 364px;
+height: 66px;
+left: 20.47px;
+top: 20.1px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.header_text{
+position: absolute;
+width: 285.46px;
+height: 66px;
+left: 115px;
+top: 20px;
+    
+font-family: 'Mplus 1p';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 53px;
+text-decoration: none;
+
+display: flex;
+align-items: center;
+text-align: center;
+    
+color: #000000;
+}
+
+.body_box{
+position: absolute;
+width: 363px;
+height: 336px;
+left: 20px;
+top: 98px;
+
+background: #FFFFFF;
+border-radius: 15px;
+}
+
+.user{
+position: absolute;
+width: 305px;
+height: 35px;
+left: 49px;
+top: 114px;
+border: none;
+border-bottom: 0.5px solid #000000;
+}
+
+.pass{
+    position: absolute;
+    width: 305px;
+    height: 35px;
+    left: 49px;
+    top: 161px;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+}
+
+.verify{
+    position: absolute;
+    width: 305px;
+    height: 35px;
+    left: 49px;
+    top: 208px;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+}
+
+.favWord{
+    position: absolute;
+    width: 305px;
+    height: 35px;
+    left: 50px;
+    top: 255px;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+}
+
+.favSym{
+    position: absolute;
+    width: 305px;
+    height: 35px;
+    left: 50px;
+    top: 302px;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+}
+
+::placeholder{
+    color: black;
+    opacity: 25%;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.login{
+    position: absolute;
+width: 169px;
+height: 24px;
+left: 54px;
+top: 354px;
+
+font-family: 'Mplus 1p';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+
+color: #000000;
+}
+
+.back{
+    position: absolute;
+width: 53px;
+height: 24px;
+left: 297px;
+top: 354px;
+
+font-family: 'Mplus 1p';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-decoration: none;
+
+color: #000000;
+}
+
+.reg{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 237.72px;
+    height: 33.52px;
+    left: 83.19px;
+    top: 390px;
+    
+    background: #FEFFBA;
+    border: 1px solid #525252;
+    border-radius: 15px;
+
+    cursor: pointer;
+}
+
+
+
+

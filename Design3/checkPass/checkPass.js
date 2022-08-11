@@ -3,39 +3,21 @@ function überprüfung() {
     var strength = 6;
     /*
         if (TestPass.length > 12) {
-            strength++;
-        } 
-        
+            strength++;}
         if (TestPass.length > 8) {
-            strength++;
-        }
-    
-    
+            strength++;}
         if (TestPass.split("").some(char => char.toUpperCase() == char)) {
-            strength++;
-        }
-    
+            strength++;}
         if (TestPass.split("").some(char => char.toLowerCase() == char)) {
-            strength++;
-        }
-       
-    
+            strength++;}
         if(/^(?=.*?[a-z])$/.test(TestPass) == true){
-            strength++;
-        }
-        
+            strength++;}
         if(/^(?=.*?[A-Z])$/.test(TestPass) == true){
-            strength++;
-        }
-    
-    
+            strength++;}
         if(/^(?=.*?[0-9])$/.test(TestPass) == true){
-            strength++;
-        }
-    
+            strength++;}
         if(/^(?=.*?[#?!@$%^&*-])$/.test(TestPass) == true){
-            strength++;
-        }
+            strength++;}
         */
 
     const hasUpperCase = /[A-Z]/.test(TestPass)
@@ -52,27 +34,21 @@ function überprüfung() {
 
     if (TestPass.length < 8) {
         strength--;
-        //alert('Password must be at least 6 characters long.')
     }
     if (TestPass.length < 12) {
         strength--;
-        //alert('Password must be at least 6 characters long.')
     }
     if (!hasUpperCase) {
         strength--;
-        //alert('Password must contain at least one uppercase letter.')
     }
     if (!hasLowerCase) {
         strength--;
-        //alert('Password must have at least one lowercase letter.')
     }
     if (!hasNumbers) {
-        strength--;
-        //alert('Password must have at least one number.')
+        strength--; 
     }
     if (!hasSpecial) {
         strength--;
-        //alert('Password must have at least one special character.')
     }
 
     //alert(strength);
